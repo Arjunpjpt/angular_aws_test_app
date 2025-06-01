@@ -44,6 +44,8 @@ jobs:
       - name: Build Angular Application
         run: |
           ls
+          cd angular-aws
+          ls
           npm install -g @angular/cli
           npm install
           ng build
