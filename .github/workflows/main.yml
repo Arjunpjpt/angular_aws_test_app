@@ -56,6 +56,8 @@ jobs:
       # 6. Copy to S3 bucket.
       - name: Copy to S3 Bucket
         run: |
+          ls
+          cd angular-aws
           aws s3 cp ./dist/* s3://my-angular-app-deploy
           
       
