@@ -59,6 +59,6 @@ jobs:
           ls
           cd angular-aws
           ls
-          aws s3 cp ./dist/* s3://my-angular-app-deploy
+          aws s3 cp ./dist/browser/* s3://my-angular-app-deploy
           
       
